@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+    background-size: cover;
+    
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    height: 780px;
+    width: 100%;
+    background: #377D71;
+    object-fit: cover;
+}
+.background img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+nav .logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    height: 200px;
+
+}
+
+.logo a {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-style: mochiy pop one;
+}
+
+.logo a span {
+    color: #5A8F7B;
+}
+
+.top {
+    position: absolute;
+    height: 52px;
+    width: 100%;
+    background-color: ;
+    top: 0px;
+
+}
+
+
+nav ul {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #603601;
+
+}
+
+.top button {
+    position: absolute;
+    left: 1350px;
+    top: 15px;
+    width: 120px;
+    height: 30px;
+    background-color: #377D71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.top button:hover {
+    background: #8879B0;
+    cursor: pointer;
+}
+
+
+.description {
+    position: absolute;
+    top: 250px;
+    left: 550px;
+
+
+
+}
+
+.description h2 {
+    top: 0px;
+    color: black;
+    font-size: 120px;
+}
+
+.description h2 span {
+    color:#377D71;
+}
+
+.description h3 {
+    position: absolute;
+    top: 120px;
+    left: 67px;
+    color:;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    font-size: 25px;
+
+
+}
+
+.description p {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.description button {
+    position: absolute;
+    top: 220px;
+    width: 120px;
+    height: 30px;
+    background-color: #377D71;
+    color: white;
+    left: 155px;
+    border: none;
+    border-radius: 4px;
+
+
+}
+
+.description button:hover {
+    background: #8879B0;
+    cursor: pointer;
+}
+
+.credit a {
+    position: absolute;
+    top: 800px;
+    left: 1400px;
+    text-decoration: none;
+    color: white;
+}
+ .student{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    border: none;
+    
+    top: 800px;
+    left: 200px;
+ }
+
+ 
+ .admin{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    border:  none;
+    
+    top: 800px;
+    left: 600px;
+ }
+
+ .query{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+  
+    border: none;
+    top: 800px;
+    left: 1000px;
+ }
+ .query img{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+ }
+ .student img{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+ }
+ .admin img{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+ }
+
+ .student button{
+    position: absolute;
+    top: 330px;
+    height: 50px;
+    width: 150px;
+    background: #377D71;
+    left: 75px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+
+ }
+ .student button a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+ }
+ .admin button{
+    position: absolute;
+    top: 330px;
+    height: 50px;
+    width: 150px;
+    background: #377D71;
+    left: 75px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+ }
+ .admin button a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+ }
+ .query button{
+    position: absolute;
+    top: 330px;
+    height: 50px;
+    width: 150px;
+    background: #377D71;
+    left: 75px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+ }
+
+ .query button a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+ }
